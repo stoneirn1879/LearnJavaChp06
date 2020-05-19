@@ -6,17 +6,16 @@ public class Circle1 {
         Scanner sc = new Scanner(System.in);
         // Circumference = 2*pi*radius
 
-        float circumference = 0f;
+        float circumference;
         float pi = 3.14159f;
-        float radius = 0;
 
         System.out.println("Enter the radius of your circle: ");
-        radius = sc.nextFloat();
+        float radius = sc.nextFloat();
 
         circumference = 2 * pi * radius;
 
         System.out.println(" The Circumference of your circle is:  " + circumference);
-        System.out.println(" The Radius of your ciccle is: " + radius);
+        System.out.println(" The Radius of your circle is: " + radius);
 
         sc.close();
 
